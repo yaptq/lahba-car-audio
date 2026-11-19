@@ -16,11 +16,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Alphard &amp; Vellfire 40 Car Audio Upgrade in Puchong | LAHBA">
 <meta name="twitter:description" content="Upgrade your Toyota Alphard or Vellfire 40 Series sound system at LAHBA in Puchong. Ask about a listening demo and DSP tuning tailored to your music.">
-<link rel="canonical" href="https://yaptq.github.io/lahba-car-audio/">
-<meta property="og:url" content="https://yaptq.github.io/lahba-car-audio/">
-<meta property="og:image" content="https://yaptq.github.io/lahba-car-audio/alphard-40-vehicle-and-audio.jpg">
-<meta name="twitter:image" content="https://yaptq.github.io/lahba-car-audio/alphard-40-vehicle-and-audio.jpg">
-<script type="application/ld+json" id="lp-website-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://yaptq.github.io/lahba-car-audio/#website","url":"https://yaptq.github.io/lahba-car-audio/","name":"LAHBA Car Audio \u0026 DSP Specialist Puchong","description":"Upgrade your Toyota Alphard or Vellfire 40 Series sound system at LAHBA in Puchong. Ask about a listening demo and DSP tuning tailored to your music.","inLanguage":"en-MY","publisher":{"@id":"https://yaptq.github.io/lahba-car-audio/#publisher"}},{"@type":"Organization","@id":"https://yaptq.github.io/lahba-car-audio/#publisher","name":"LAHBA Car Audio \u0026 DSP Specialist Puchong","url":"https://yaptq.github.io/lahba-car-audio/","logo":"https://yaptq.github.io/lahba-car-audio/logo.png"}]}</script>
+<link rel="canonical" href="https://audio.lahbamalaysia.com/">
+<meta property="og:url" content="https://audio.lahbamalaysia.com/">
+<meta property="og:image" content="https://audio.lahbamalaysia.com/alphard-40-puchong-workshop.jpg">
+<meta name="twitter:image" content="https://audio.lahbamalaysia.com/alphard-40-puchong-workshop.jpg">
+<script type="application/ld+json" id="lp-website-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://audio.lahbamalaysia.com/#website","url":"https://audio.lahbamalaysia.com/","name":"LAHBA Car Audio \u0026 DSP Specialist Puchong","description":"Upgrade your Toyota Alphard or Vellfire 40 Series sound system at LAHBA in Puchong. Ask about a listening demo and DSP tuning tailored to your music.","inLanguage":"en-MY","publisher":{"@id":"https://audio.lahbamalaysia.com/#publisher"}},{"@type":"Organization","@id":"https://audio.lahbamalaysia.com/#publisher","name":"LAHBA Car Audio \u0026 DSP Specialist Puchong","url":"https://audio.lahbamalaysia.com/","logo":"https://audio.lahbamalaysia.com/logo.png"}]}</script>
 <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48">
 <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
@@ -130,6 +130,20 @@
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-4px); }
   }
+
+  .demo-preview { display: inline-flex; align-items: center; gap: .7rem; margin-top: 1.25rem; text-decoration: none; font-weight: 700; }
+  .demo-preview:hover, .reviews-link:hover { color: var(--gold); }
+  .demo-preview img { width: 104px; height: auto; border: 1px solid var(--line); border-radius: 5px; }
+  .demo { display: grid; grid-template-columns: minmax(0, 350px) minmax(0, 1fr); align-items: center; gap: clamp(1rem, 5vw, 4rem); }
+  .demo video { display: block; width: 100%; height: auto; max-height: 65vh; aspect-ratio: 9 / 16; background: #000; border-radius: 10px; }
+  .reviews-link { margin-top: 1rem; }
+  .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .case-summary { margin-top: 1rem; max-width: 70ch; }
+  @media (max-width: 640px) {
+    .demo { grid-template-columns: minmax(0,1fr); }
+    .demo video { max-width: 350px; justify-self: center; }
+    .gallery { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
@@ -155,11 +169,28 @@
         <a class="button whatsapp-demo" href="https://wa.me/601137401505?text=Hi%20LAHBA%2C%20I%27d%20like%20to%20ask%20about%20a%20listening%20demo%20for%20an%20Alphard%20or%20Vellfire%2040%20Series%20sound%20system%20upgrade." target="_blank" rel="noopener noreferrer">Ask about a demo on WhatsApp</a>
         <a class="button button-secondary" href="https://www.lahbamalaysia.com/post/toyota-alphard-vellfire-40-audio-upgrade-cost-malaysia">See More of Our Work</a>
       </div>
+      <a class="demo-preview" href="#sound-demo">
+        <img src="toyota-taha40-sound-demo-thumbnail.jpg" width="480" height="270" alt="">
+        <span>▶ Watch the 49-second sound demo</span>
+      </a>
     </div>
     <figure>
-      <img src="alphard-40-vehicle-and-audio.jpg" width="1206" height="1752" alt="White Toyota Alphard 40 at LAHBA with speakers and sound system equipment laid out in front">
+      <img src="alphard-40-puchong-workshop.jpg" width="1206" height="678" alt="Front of a white Toyota Alphard 40 at LAHBA’s Puchong workshop" fetchpriority="high">
       <figcaption>Alphard 40 audio upgrade at LAHBA, Puchong</figcaption>
     </figure>
+  </section>
+
+  <section class="section" id="sound-demo" aria-labelledby="demo-title">
+    <div class="wrap demo">
+      <video controls playsinline preload="none" poster="toyota-taha40-sound-demo-poster.jpg" width="720" height="1280" aria-labelledby="demo-title">
+        <source src="toyota-taha40-sound-demo.mp4" type="video/mp4">
+        <a href="toyota-taha40-sound-demo.mp4">Open the Toyota TAHA40 sound demo</a>
+      </video>
+      <div>
+        <h2 id="demo-title">Toyota TAHA40 sound demo</h2>
+        <p class="section-intro">Listen to a 49-second Toyota TAHA40 cabin audio demo recorded by LAHBA in Puchong. For an in-person demo, bring a track you know and tell us what you’d like to hear more clearly.</p>
+      </div>
+    </div>
   </section>
 
   <section class="section" id="process">
@@ -178,7 +209,12 @@
   <section class="section" id="installations">
     <div class="wrap">
       <h2>Inside an Alphard 40 install</h2>
+      <p class="case-summary">This Alphard 40 installation shows the audio components laid out before fitting, a close-up of a mounted speaker, and soundproofing around the door speaker. LAHBA starts with a listening demo and recommends components based on the owner’s listening preferences.</p>
       <div class="gallery">
+        <figure>
+          <img src="alphard-40-audio-components.jpg" width="820" height="410" loading="lazy" alt="Speakers and audio equipment laid out for an Alphard 40 installation at LAHBA">
+          <figcaption>Audio components laid out before fitting</figcaption>
+        </figure>
         <figure>
           <img src="alphard-40-speaker-detail.jpg" width="1206" height="1608" loading="lazy" alt="Close-up of a speaker mounted in an Alphard 40">
           <figcaption>Speaker mounting detail</figcaption>
@@ -192,6 +228,7 @@
         <p>Sent my Toyota Vellfire for a sound system upgrade and Android box installation, and I&#x27;m very satisfied with the overall experience! The sound quality has improved significantly, and everything works smoothly. The team was professional, knowledgeable, and helpful throughout the process. Overall, great workmanship and service. Definitely recommended to anyone looking to upgrade their car&#x27;s audio system! 👍👍</p>
         <footer>Toyota Vellfire owner</footer>
       </blockquote>
+      <a class="button button-secondary reviews-link" href="https://maps.app.goo.gl/Y3CC6kkZ73yukfBo6" target="_blank" rel="noopener noreferrer">Read more Google reviews ↗</a>
     </div>
   </section>
 
